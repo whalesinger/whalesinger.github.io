@@ -1,0 +1,46 @@
+button {
+  cursor: wait;
+  width: 300px;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: blue;
+  color: white;
+  box-shadow: 3px 3px 20px black;
+}
+
+button:hover {
+  background: black;
+  box-shadow: 30px 30px 100px red;
+  transition: box-shadow 10s;
+}
+button:active {
+  background: green;
+  box-shadow: 80px 39px 250px yellow;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+span {
+  color: green;
+}
+
+#oo {
+  font-size: 90px;
+  color: red;
+  font-family: 'helvetica';
+}
+
+div#hh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  @media (min-width: 500px) {
+    flex-direction: row;
+  }
+}
