@@ -1,5 +1,6 @@
 button {
   cursor: wait;
+  outline: none;
   width: 300px;
   height: 48px;
   font-size: 18px;
