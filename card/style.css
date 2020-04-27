@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fatima";
+}
+
+.card {
+    position: relative;
+    width: 330px;
+    height: 496px;
+    border-radius: 4px;
+    padding: 25px;
+    transition: all 0.2s linear;
+}
+
+.card:hover {
+    transition: all 0.2s linear;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.3);
+    transform: scale(1.06);
+}
+
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #535E68;
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535E68;
+}
+
+.factoid-container {
+    display: flex;
+}
+
+.factoid-item {
+    width: 110px;
+}
+
+.first-item {
+    margin-right: 60px;
+}
+
+.factoid-number {
+   font-weight: bold;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #FC4710;
+}
+
+.factoid-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535E68;
+    margin-top: 0px;
+}
+
+.arrow-icon {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
